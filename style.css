@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans');
+:root{
+	--primary-color:#04213a;
+}
+
+body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:18px;
+}
+
+p,a{
+	font-family:"Nunito";
+}
+h1,h2,h3{
+	font-family:"Nunito Sans";
+}
+
+.logo{
+	height:60px;
+}
+
+.background{
+	background:var(--primary-color);
+}
+
+footer{
+	margin-top:130px;
+	background:var(--primary-color);
+	color:black;
+}
+
+.card{
+	box-shadow: 0 3px 6px rgba(#000, .16);
+}
+
+.image-container{
+	height:450px;
+}
+
